@@ -5,11 +5,11 @@
     <ProjectItemFile Source="tools\build.js" Target="tools\" Type="ElementFile" />
     <ProjectItemFile Source="tools\build.options.txt" Target="tools\" Type="ElementFile" />
     <ProjectItemFile Source="tools\r.js" Target="tools\" Type="ElementFile" />
-    <ProjectItemFile Source="src\scripts\release\js\vendors\jquery-2.1.4.min.js" Target="src\scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="src\scripts\release\js\vendors\jquery-private.js" Target="src\scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="src\scripts\release\js\vendors\require.js" Target="src\scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="src\scripts\release\js\app\pages\default.js" Target="src\scripts\release\js\app\pages\" Type="ElementFile" />
-    <ProjectItemFile Source="src\scripts\release\js\app\services\logger.js" Target="src\scripts\release\js\app\services\" Type="ElementFile" />
-    <ProjectItemFile Source="src\scripts\release\js\common.js" Target="src\scripts\release\js\" Type="ElementFile" />
+    <ProjectItemFile Source="src\scripts\js\app\pages\default.js" Target="src\scripts\js\app\pages\" Type="ElementFile" />
+    <ProjectItemFile Source="src\scripts\js\app\services\logger.js" Target="src\scripts\js\app\services\" Type="ElementFile" />
+    <ProjectItemFile Source="src\scripts\js\common.js" Target="src\scripts\js\" Type="ElementFile" />
+    <ProjectItemFile Source="src\scripts\js\vendors\jquery-2.1.4.min.js" Target="src\scripts\js\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="src\scripts\js\vendors\jquery-private.js" Target="src\scripts\js\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="src\scripts\js\vendors\require.js" Target="src\scripts\js\vendors\" Type="ElementFile" />
   </Files>
 </ProjectItem>

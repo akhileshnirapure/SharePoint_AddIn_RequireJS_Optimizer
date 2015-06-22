@@ -1,0 +1,3 @@
+function getUserName(){context.load(user),context.executeQueryAsync(onGetUserNameSuccess,onGetUserNameFail)}function onGetUserNameSuccess(){$("#message").text("Hello "+user.get_title())}function onGetUserNameFail(e,t){alert("Failed to get user name. Error:"+t.get_message())}var application=function(e,t){var n=function(){function n(){e(document).ready(function(){r.log("Application Start."),getUserName(),r.log("Application End.")})}var r=new t("Demo");return{Init:n}};return new n},context=SP.ClientContext.get_current(),user=context.get_web().get_currentUser();define("app/pages/default",["jquery","app/services/logger"],application);
+//# sourceMappingURL=default.js
+//# sourceMappingURL=default.js.map

@@ -2,12 +2,14 @@
     //  source directory which contains all the modules, services and library
     appDir: '../src/scripts',
 
+    baseUrl: '../scripts/js/vendors',
+
     //  defines all the shim configuration
-    mainConfigFile: '../src/scripts/release/js/common.js',
+    mainConfigFile: '../src/scripts/js/common.js',
 
 
     //  the release output directory
-    dir: '../scripts/build/release',
+    dir: '../Scripts/release',
 
     //  define the modules and related dependencies
     modules: [

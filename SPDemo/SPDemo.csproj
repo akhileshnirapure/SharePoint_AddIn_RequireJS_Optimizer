@@ -51,8 +51,14 @@
     <Content Include="Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\release\js\app\pages\default.js.map" />
+    <None Include="Scripts\release\js\app\services\logger.js.map" />
+    <None Include="Scripts\release\js\common.js.map" />
+    <None Include="Scripts\release\js\vendors\jquery-2.1.4.min.js.map" />
+    <None Include="Scripts\release\js\vendors\jquery-private.js.map" />
+    <None Include="Scripts\release\js\vendors\require.js.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{c0cabe94-1838-4bf3-9dba-b373a1e1c8fc}</SharePointProjectItemId>
+      <SharePointProjectItemId>{41a613cf-edae-4cb1-ab8b-4516685c09d0}</SharePointProjectItemId>
     </None>
     <None Include="SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8a3a85f7-2392-4794-a486-04bb893749ff}</SharePointProjectItemId>
@@ -60,12 +66,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\Elements.xml" />
-    <Content Include="src\scripts\release\js\app\pages\default.js" />
-    <Content Include="src\scripts\release\js\app\services\logger.js" />
-    <Content Include="src\scripts\release\js\common.js" />
-    <Content Include="src\scripts\release\js\vendors\jquery-2.1.4.min.js" />
-    <Content Include="src\scripts\release\js\vendors\jquery-private.js" />
-    <Content Include="src\scripts\release\js\vendors\require.js" />
+    <Content Include="Scripts\release\build.txt" />
+    <Content Include="Scripts\release\js\app\pages\default.js" />
+    <Content Include="Scripts\release\js\app\services\logger.js" />
+    <Content Include="Scripts\release\js\app\services\logger.js.src.js" />
+    <Content Include="Scripts\release\js\common.js" />
+    <Content Include="Scripts\release\js\vendors\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\release\js\vendors\jquery-2.1.4.min.js.src.js" />
+    <Content Include="Scripts\release\js\vendors\jquery-private.js" />
+    <Content Include="Scripts\release\js\vendors\jquery-private.js.src.js" />
+    <Content Include="Scripts\release\js\vendors\require.js" />
+    <Content Include="Scripts\release\js\vendors\require.js.src.js" />
+    <Content Include="src\scripts\js\app\pages\default.js" />
+    <Content Include="src\scripts\js\app\services\logger.js" />
+    <Content Include="src\scripts\js\common.js" />
+    <Content Include="src\scripts\js\vendors\jquery-2.1.4.min.js" />
+    <Content Include="src\scripts\js\vendors\jquery-private.js" />
+    <Content Include="src\scripts\js\vendors\require.js" />
     <Content Include="tools\build.js" />
     <Content Include="tools\build.options.txt" />
     <Content Include="tools\r.js" />
