@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="tools\build.js" Url="tools/build.js" ReplaceContent="TRUE" />
+    <File Path="tools\build.options.txt" Url="tools/build.options.txt" ReplaceContent="TRUE" />
+    <File Path="tools\r.js" Url="tools/r.js" ReplaceContent="TRUE" />
+    <File Path="src\scripts\release\js\vendors\jquery-2.1.4.min.js" Url="src/scripts/release/js/vendors/jquery-2.1.4.min.js" ReplaceContent="TRUE" />
+    <File Path="src\scripts\release\js\vendors\jquery-private.js" Url="src/scripts/release/js/vendors/jquery-private.js" ReplaceContent="TRUE" />
+    <File Path="src\scripts\release\js\vendors\require.js" Url="src/scripts/release/js/vendors/require.js" ReplaceContent="TRUE" />
+    <File Path="src\scripts\release\js\app\pages\default.js" Url="src/scripts/release/js/app/pages/default.js" ReplaceContent="TRUE" />
+    <File Path="src\scripts\release\js\app\services\logger.js" Url="src/scripts/release/js/app/services/logger.js" ReplaceContent="TRUE" />
+    <File Path="src\scripts\release\js\common.js" Url="src/scripts/release/js/common.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
