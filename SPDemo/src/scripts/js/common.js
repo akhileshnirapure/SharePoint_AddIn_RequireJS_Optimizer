@@ -10,7 +10,7 @@
         common:'../common'
     },
 
-    shim: {
+    map: {
 
         // any module ask for jquery give jquery-private
         "*": { 'jquery': 'jquery-private' },
