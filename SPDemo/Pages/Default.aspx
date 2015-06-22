@@ -8,7 +8,7 @@
 
 <%-- The markup and script in the following Content element will be placed in the <head> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
-    <script type="text/javascript" src="../Scripts/js/vendors/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../Scripts/release/js/vendors/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
     <meta name="WebPartPageExpansion" content="full" />
@@ -17,7 +17,7 @@
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
     <!-- Add your JavaScript to the following file -->
-    <script type="text/javascript" data-main="../scripts/js/common" src="../Scripts/js/vendors/require.js"></script>
+    <script type="text/javascript" data-main="../Scripts/release/js/common" src="../Scripts/release/js/vendors/require.js"></script>
     <script type="text/javascript">
         
         $(document).ready(function () {

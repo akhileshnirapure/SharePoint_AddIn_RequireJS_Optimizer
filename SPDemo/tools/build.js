@@ -2,6 +2,7 @@
     //  source directory which contains all the modules, services and library
     appDir: '../src/scripts',
 
+    //  baseUrl to consider while build, this overrides the baseUrl defined in config file
     baseUrl: '../scripts/js/vendors',
 
     //  defines all the shim configuration

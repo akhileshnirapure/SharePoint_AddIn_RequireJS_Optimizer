@@ -1,9 +1,8 @@
 ﻿require.config({
 
-    // relative to pages
+    // sharepoint scripts library deployment path to vendors 
     baseUrl: '../scripts/release/js/vendors', 
 
-    //  explicit configuration to let builder know the path 
     paths: {
         'jquery': 'jquery-2.1.4.min', // relative to basepath
         'jquery-private': 'jquery-private',
