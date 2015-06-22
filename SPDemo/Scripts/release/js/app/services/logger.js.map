@@ -1,0 +1,1 @@
+{"version":3,"file":"logger.js","sources":["logger.js.src.js"],"names":["logger","loggerModule","p_moduleName","log","p_msg","console","group","define"],"mappings":"AAAA,GAAIA,QAAS,WAET,GAAIC,GAAe,SAAUC,GAEzB,QAASC,GAAIC,GACTC,QAAQC,MAAMJ,GACdG,QAAQF,IAAIC,GAGhB,OACID,IAAKA,GAIb,OAAOF,GAGXM,QAAOP"}

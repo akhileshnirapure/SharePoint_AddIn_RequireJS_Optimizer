@@ -1,0 +1,3 @@
+var application=function(e,t){var n=function(){function n(){e(document).ready(function(){function t(){i.load(o),i.executeQueryAsync(n,a)}function n(){e("#message").text("Hello "+o.get_title())}function a(e,t){alert("Failed to get user name. Error:"+t.get_message())}r.log("Application Start.");var i=SP.ClientContext.get_current(),o=i.get_web().get_currentUser();t(),r.log("Application End.")})}var r=new t("Demo");return{Init:n}};return n};define("app/pages/default",["jquery","app/services/logger"],application);
+//# sourceMappingURL=default.js
+//# sourceMappingURL=default.js.map
