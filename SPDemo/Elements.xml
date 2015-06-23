@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="RootModule">
-    <File Path="tools\build.js" Url="tools/build.js" ReplaceContent="TRUE" />
+    <File Path="tools\build.release.js" Url="tools/build.release.js" ReplaceContent="TRUE" />
     <File Path="tools\build.options.txt" Url="tools/build.options.txt" ReplaceContent="TRUE" />
     <File Path="tools\r.js" Url="tools/r.js" ReplaceContent="TRUE" />
-    <File Path="src\scripts\js\vendors\jquery-2.1.4.min.js" Url="src/scripts/js/vendors/jquery-2.1.4.min.js" ReplaceContent="TRUE" />
-    <File Path="src\scripts\js\vendors\jquery-private.js" Url="src/scripts/js/vendors/jquery-private.js" ReplaceContent="TRUE" />
-    <File Path="src\scripts\js\vendors\require.js" Url="src/scripts/js/vendors/require.js" ReplaceContent="TRUE" />
-    <File Path="src\scripts\js\app\pages\default.js" Url="src/scripts/js/app/pages/default.js" ReplaceContent="TRUE" />
-    <File Path="src\scripts\js\app\services\logger.js" Url="src/scripts/js/app/services/logger.js" ReplaceContent="TRUE" />
-    <File Path="src\scripts\js\common.js" Url="src/scripts/js/common.js" ReplaceContent="TRUE" />
+    <File Path="js\vendors\jquery-2.1.4.min.js" Url="js/vendors/jquery-2.1.4.min.js" ReplaceContent="TRUE" />
+    <File Path="js\vendors\jquery-private.js" Url="js/vendors/jquery-private.js" ReplaceContent="TRUE" />
+    <File Path="js\vendors\require.js" Url="js/vendors/require.js" ReplaceContent="TRUE" />
+    <File Path="js\app\pages\default.js" Url="js/app/pages/default.js" ReplaceContent="TRUE" />
+    <File Path="js\app\services\logger.js" Url="js/app/services/logger.js" ReplaceContent="TRUE" />
+    <File Path="js\common.js" Url="js/common.js" ReplaceContent="TRUE" />
+    <File Path="tools\build.debug.js" Url="tools/build.debug.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

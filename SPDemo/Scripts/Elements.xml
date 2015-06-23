@@ -1,22 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Scripts">
+    <File Path="Scripts\release\app\pages\default.js" Url="Scripts/release/app/pages/default.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\app\pages\default.js.map" Url="Scripts/release/app/pages/default.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\app\services\logger.js" Url="Scripts/release/app/services/logger.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\app\services\logger.js.map" Url="Scripts/release/app/services/logger.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\app\services\logger.js.src.js" Url="Scripts/release/app/services/logger.js.src.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\vendors\jquery-2.1.4.min.js" Url="Scripts/release/vendors/jquery-2.1.4.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\vendors\jquery-2.1.4.min.js.map" Url="Scripts/release/vendors/jquery-2.1.4.min.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\vendors\jquery-2.1.4.min.js.src.js" Url="Scripts/release/vendors/jquery-2.1.4.min.js.src.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\vendors\jquery-private.js" Url="Scripts/release/vendors/jquery-private.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\vendors\jquery-private.js.map" Url="Scripts/release/vendors/jquery-private.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\vendors\jquery-private.js.src.js" Url="Scripts/release/vendors/jquery-private.js.src.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\vendors\require.js" Url="Scripts/release/vendors/require.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\vendors\require.js.map" Url="Scripts/release/vendors/require.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\vendors\require.js.src.js" Url="Scripts/release/vendors/require.js.src.js" ReplaceContent="TRUE" />
     <File Path="Scripts\release\build.txt" Url="Scripts/release/build.txt" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\common.js" Url="Scripts/release/js/common.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\common.js.map" Url="Scripts/release/js/common.js.map" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\app\pages\default.js" Url="Scripts/release/js/app/pages/default.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\app\pages\default.js.map" Url="Scripts/release/js/app/pages/default.js.map" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\app\services\logger.js" Url="Scripts/release/js/app/services/logger.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\app\services\logger.js.map" Url="Scripts/release/js/app/services/logger.js.map" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\app\services\logger.js.src.js" Url="Scripts/release/js/app/services/logger.js.src.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\vendors\jquery-2.1.4.min.js" Url="Scripts/release/js/vendors/jquery-2.1.4.min.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\vendors\jquery-2.1.4.min.js.map" Url="Scripts/release/js/vendors/jquery-2.1.4.min.js.map" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\vendors\jquery-2.1.4.min.js.src.js" Url="Scripts/release/js/vendors/jquery-2.1.4.min.js.src.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\vendors\jquery-private.js" Url="Scripts/release/js/vendors/jquery-private.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\vendors\jquery-private.js.map" Url="Scripts/release/js/vendors/jquery-private.js.map" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\vendors\jquery-private.js.src.js" Url="Scripts/release/js/vendors/jquery-private.js.src.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\vendors\require.js" Url="Scripts/release/js/vendors/require.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\vendors\require.js.map" Url="Scripts/release/js/vendors/require.js.map" ReplaceContent="TRUE" />
-    <File Path="Scripts\release\js\vendors\require.js.src.js" Url="Scripts/release/js/vendors/require.js.src.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\common.js" Url="Scripts/release/common.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\common.js.map" Url="Scripts/release/common.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\debug\app\pages\default.js" Url="Scripts/debug/app/pages/default.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\debug\app\services\logger.js" Url="Scripts/debug/app/services/logger.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\debug\vendors\jquery-2.1.4.min.js" Url="Scripts/debug/vendors/jquery-2.1.4.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\debug\vendors\jquery-private.js" Url="Scripts/debug/vendors/jquery-private.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\debug\vendors\require.js" Url="Scripts/debug/vendors/require.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\debug\build.txt" Url="Scripts/debug/build.txt" ReplaceContent="TRUE" />
+    <File Path="Scripts\debug\common.js" Url="Scripts/debug/common.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

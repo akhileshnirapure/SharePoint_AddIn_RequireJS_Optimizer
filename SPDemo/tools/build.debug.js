@@ -1,16 +1,16 @@
 ﻿({
     //  source directory which contains all the modules, services and library
-    appDir: '../src/scripts',
+    appDir: '../js',
 
     //  baseUrl to consider while build, this overrides the baseUrl defined in config file
-    baseUrl: '../scripts/js/vendors',
+    baseUrl: '../js/vendors',
 
     //  defines all the shim configuration
-    mainConfigFile: '../src/scripts/js/common.js',
+    mainConfigFile: '../js/common.js',
 
 
     //  the release output directory
-    dir: '../Scripts/release',
+    dir: '../Scripts/debug',
 
     //  define the modules and related dependencies
     modules: [
@@ -26,9 +26,5 @@
         }
 
     ],
-
-    //  we want to generate sourcemaps hence we need version2
-    generateSourceMaps: true,
-    preserveLicenseComments: false,
-	optimize: 'uglify2'                     
+    optimize: "none"
 })

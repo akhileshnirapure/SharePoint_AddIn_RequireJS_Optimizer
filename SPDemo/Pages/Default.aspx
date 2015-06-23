@@ -6,9 +6,12 @@
 <%@ Register TagPrefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register TagPrefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 
+
+
 <%-- The markup and script in the following Content element will be placed in the <head> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
-    <script type="text/javascript" src="../Scripts/release/js/vendors/jquery-2.1.4.min.js"></script>
+    
+    <script type="text/javascript" src="../Scripts/debug/vendors/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
     <meta name="WebPartPageExpansion" content="full" />
@@ -16,8 +19,11 @@
     <!-- Add your CSS styles to the following file -->
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
+
     <!-- Add your JavaScript to the following file -->
-    <script type="text/javascript" data-main="../Scripts/release/js/common" src="../Scripts/release/js/vendors/require.js"></script>
+    
+    
+    <script type="text/javascript" data-main="../Scripts/debug/common" src="../Scripts/debug/vendors/require.js"></script> 
     <script type="text/javascript">
         
         $(document).ready(function () {

@@ -2,22 +2,29 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="release\app\pages\default.js" Target="Scripts\release\app\pages\" Type="ElementFile" />
+    <ProjectItemFile Source="release\app\pages\default.js.map" Target="Scripts\release\app\pages\" Type="ElementFile" />
+    <ProjectItemFile Source="release\app\services\logger.js" Target="Scripts\release\app\services\" Type="ElementFile" />
+    <ProjectItemFile Source="release\app\services\logger.js.map" Target="Scripts\release\app\services\" Type="ElementFile" />
+    <ProjectItemFile Source="release\app\services\logger.js.src.js" Target="Scripts\release\app\services\" Type="ElementFile" />
+    <ProjectItemFile Source="release\vendors\jquery-2.1.4.min.js" Target="Scripts\release\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="release\vendors\jquery-2.1.4.min.js.map" Target="Scripts\release\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="release\vendors\jquery-2.1.4.min.js.src.js" Target="Scripts\release\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="release\vendors\jquery-private.js" Target="Scripts\release\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="release\vendors\jquery-private.js.map" Target="Scripts\release\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="release\vendors\jquery-private.js.src.js" Target="Scripts\release\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="release\vendors\require.js" Target="Scripts\release\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="release\vendors\require.js.map" Target="Scripts\release\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="release\vendors\require.js.src.js" Target="Scripts\release\vendors\" Type="ElementFile" />
     <ProjectItemFile Source="release\build.txt" Target="Scripts\release\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\common.js" Target="Scripts\release\js\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\common.js.map" Target="Scripts\release\js\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\app\pages\default.js" Target="Scripts\release\js\app\pages\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\app\pages\default.js.map" Target="Scripts\release\js\app\pages\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\app\services\logger.js" Target="Scripts\release\js\app\services\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\app\services\logger.js.map" Target="Scripts\release\js\app\services\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\app\services\logger.js.src.js" Target="Scripts\release\js\app\services\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\vendors\jquery-2.1.4.min.js" Target="Scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\vendors\jquery-2.1.4.min.js.map" Target="Scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\vendors\jquery-2.1.4.min.js.src.js" Target="Scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\vendors\jquery-private.js" Target="Scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\vendors\jquery-private.js.map" Target="Scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\vendors\jquery-private.js.src.js" Target="Scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\vendors\require.js" Target="Scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\vendors\require.js.map" Target="Scripts\release\js\vendors\" Type="ElementFile" />
-    <ProjectItemFile Source="release\js\vendors\require.js.src.js" Target="Scripts\release\js\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="release\common.js" Target="Scripts\release\" Type="ElementFile" />
+    <ProjectItemFile Source="release\common.js.map" Target="Scripts\release\" Type="ElementFile" />
+    <ProjectItemFile Source="debug\app\pages\default.js" Target="Scripts\debug\app\pages\" Type="ElementFile" />
+    <ProjectItemFile Source="debug\app\services\logger.js" Target="Scripts\debug\app\services\" Type="ElementFile" />
+    <ProjectItemFile Source="debug\vendors\jquery-2.1.4.min.js" Target="Scripts\debug\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="debug\vendors\jquery-private.js" Target="Scripts\debug\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="debug\vendors\require.js" Target="Scripts\debug\vendors\" Type="ElementFile" />
+    <ProjectItemFile Source="debug\build.txt" Target="Scripts\debug\" Type="ElementFile" />
+    <ProjectItemFile Source="debug\common.js" Target="Scripts\debug\" Type="ElementFile" />
   </Files>
 </ProjectItem>
