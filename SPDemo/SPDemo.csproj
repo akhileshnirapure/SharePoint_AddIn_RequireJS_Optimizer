@@ -91,6 +91,8 @@
     <Content Include="Scripts\release\vendors\require.js" />
     <Content Include="Scripts\release\vendors\require.js.src.js" />
     <Content Include="tools\build.debug.js" />
+    <Content Include="tools\build.single.release.js" />
+    <Content Include="tools\build.single.debug.js" />
     <Content Include="tools\build.release.js" />
     <Content Include="tools\build.options.txt" />
     <Content Include="tools\r.js" />

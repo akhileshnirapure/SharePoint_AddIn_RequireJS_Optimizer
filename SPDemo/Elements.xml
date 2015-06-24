@@ -11,5 +11,7 @@
     <File Path="js\app\services\logger.js" Url="js/app/services/logger.js" ReplaceContent="TRUE" />
     <File Path="js\common.js" Url="js/common.js" ReplaceContent="TRUE" />
     <File Path="tools\build.debug.js" Url="tools/build.debug.js" ReplaceContent="TRUE" />
+    <File Path="tools\build.single.debug.js" Url="tools/build.single.debug.js" ReplaceContent="TRUE" />
+    <File Path="tools\build.single.release.js" Url="tools/build.single.release.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

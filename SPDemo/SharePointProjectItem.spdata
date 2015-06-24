@@ -12,5 +12,7 @@
     <ProjectItemFile Source="js\vendors\jquery-private.js" Target="js\vendors\" Type="ElementFile" />
     <ProjectItemFile Source="js\vendors\require.js" Target="js\vendors\" Type="ElementFile" />
     <ProjectItemFile Source="tools\build.debug.js" Target="tools\" Type="ElementFile" />
+    <ProjectItemFile Source="tools\build.single.debug.js" Target="tools\" Type="ElementFile" />
+    <ProjectItemFile Source="tools\build.single.release.js" Target="tools\" Type="ElementFile" />
   </Files>
 </ProjectItem>
