@@ -17,6 +17,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{4D
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{95C4D797-EFBD-478E-BE9F-FA6F61239012}"
+	ProjectSection(SolutionItems) = preProject
+		Mult-Page-Folder-Structure-RequireJS.png = Mult-Page-Folder-Structure-RequireJS.png
+		Mult-Page-RequireJS.png = Mult-Page-RequireJS.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,5 +38,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95C4D797-EFBD-478E-BE9F-FA6F61239012} = {4DBA2BF6-B506-4C7F-BE2A-B03C3CC97A52}
 	EndGlobalSection
 EndGlobal
