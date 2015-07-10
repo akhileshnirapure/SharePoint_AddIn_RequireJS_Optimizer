@@ -29,11 +29,9 @@ and utilizing r.js optimizer.
 #Multi-Page RequireJS and SharePoint
 ---
 ## Brain Map
-
-<iframe src="https://onedrive.live.com/embed?cid=1F816D036F021D89&resid=1F816D036F021D89%219184&authkey=AKgVJTjtx4Rmwss" width="320" height="155" frameborder="0" scrolling="no" style="display:block; margin: 0 auto;"></iframe>
+![Concept](https://raw.githubusercontent.com/akhileshnirapure/SharePoint_AddIn_RequireJS_Optimizer/master/Mult-Page-RequireJS.png)
 
 ---
 
 ## Folder Structure
-
-<iframe src="https://onedrive.live.com/embed?cid=1F816D036F021D89&resid=1F816D036F021D89%219185&authkey=AKNPy05hkNC5Vrc" width="320" height="210" frameborder="0" scrolling="no"></iframe>
+![Folder Structure](https://raw.githubusercontent.com/akhileshnirapure/SharePoint_AddIn_RequireJS_Optimizer/master/Mult-Page-Folder-Structure-RequireJS.png)
