@@ -24,3 +24,16 @@ More documentation at: <http://requirejs.org/docs/optimization.html>
 The solution gives standard template (folder structure with build
 configuration) as to how we can build cohesive and decoupled solution
 and utilizing r.js optimizer.
+
+
+#Multi-Page RequireJS and SharePoint
+---
+## Brain Map
+
+<iframe src="https://onedrive.live.com/embed?cid=1F816D036F021D89&resid=1F816D036F021D89%219184&authkey=AKgVJTjtx4Rmwss" width="320" height="155" frameborder="0" scrolling="no"></iframe>
+
+---
+
+## Folder Structure
+
+<iframe src="https://onedrive.live.com/embed?cid=1F816D036F021D89&resid=1F816D036F021D89%219185&authkey=AKNPy05hkNC5Vrc" width="320" height="210" frameborder="0" scrolling="no"></iframe>
